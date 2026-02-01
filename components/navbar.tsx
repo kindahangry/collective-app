@@ -40,7 +40,9 @@ export function Navbar() {
           Home
         </Link>
         <Link
-          href="https://collective.markets/docs"
+          href="https://docs.collective.markets/"
+          target="_blank"
+          rel="noopener noreferrer"
           className="font-vt text-xl md:text-2xl text-white hover:text-pixel-pink transition-colors"
         >
           Docs
