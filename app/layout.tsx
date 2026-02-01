@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Press_Start_2P, Silkscreen, VT323 } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import { Web3Provider } from "@/providers/web3-provider";
 
@@ -44,6 +45,7 @@ export default function RootLayout({
         <Web3Provider>
           {children}
         </Web3Provider>
+        <Analytics />
       </body>
     </html>
   );
